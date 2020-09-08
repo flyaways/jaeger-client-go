@@ -17,7 +17,7 @@ package jaeger
 import (
 	"time"
 
-	"github.com/uber/jaeger-client-go/log"
+	"github.com/jaegertracing/jaeger-client-go/log"
 )
 
 // SamplerOption is a function that sets some option on the sampler

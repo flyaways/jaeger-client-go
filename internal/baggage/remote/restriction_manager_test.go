@@ -29,9 +29,9 @@ import (
 	"github.com/uber/jaeger-lib/metrics/metricstest"
 	"go.uber.org/atomic"
 
-	"github.com/uber/jaeger-client-go"
-	"github.com/uber/jaeger-client-go/internal/baggage"
-	thrift "github.com/uber/jaeger-client-go/thrift-gen/baggage"
+	"github.com/jaegertracing/jaeger-client-go"
+	"github.com/jaegertracing/jaeger-client-go/internal/baggage"
+	thrift "github.com/jaegertracing/jaeger-client-go/thrift-gen/baggage"
 )
 
 const (

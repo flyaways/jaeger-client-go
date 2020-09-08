@@ -18,11 +18,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/uber/jaeger-client-go/internal/reporterstats"
-	"github.com/uber/jaeger-client-go/log"
-	"github.com/uber/jaeger-client-go/thrift"
-	j "github.com/uber/jaeger-client-go/thrift-gen/jaeger"
-	"github.com/uber/jaeger-client-go/utils"
+	"github.com/jaegertracing/jaeger-client-go/internal/reporterstats"
+	"github.com/jaegertracing/jaeger-client-go/log"
+	"github.com/jaegertracing/jaeger-client-go/thrift"
+	j "github.com/jaegertracing/jaeger-client-go/thrift-gen/jaeger"
+	"github.com/jaegertracing/jaeger-client-go/utils"
 )
 
 // Empirically obtained constant for how many bytes in the message are used for envelope.
